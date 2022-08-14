@@ -13,11 +13,7 @@ button = '#238636'
 
 class Frame_login(tk.Frame):
     def __init__(self, ancestor):
-<<<<<<< HEAD
         """Construtor."""
-=======
-        """Construtor"""
->>>>>>> 8551750441435ab97209ac1776fe6eb3008cdb4e
         tk.Frame.__init__(self)
         self.ancestor = ancestor
         self.configure(background=background)
